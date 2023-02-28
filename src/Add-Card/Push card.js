@@ -19,12 +19,15 @@ class Pushcard extends Component{
         return(
                 <div className="card-conteiner">
                     <div className={'cont-img'}>
-                        <div className={'skitka'}>
-                            <span>{skitka.length>0?skitka:'10'}%</span>
-                        </div>
-                        <div className={'new-tovar'}>
-                            <span>{term.length>0?term:'New'}</span>
-                        </div>
+                        {skitka.length>0?
+                            <div className={'skitka'}>
+                            <span>{skitka}%</span>
+                        </div>:null}
+                        {term.length>0?
+                            <div className={'new-tovar'}>
+                            <span>{term}</span>
+                        </div> :null}
+
                         <img src={img.length>0?img:'https://us.123rf.com/450wm/mamun25g/mamun25g2209/mamun25g220906423/mamun25g220906423.jpg?ver=6'} alt="..."/>
                     </div>
 

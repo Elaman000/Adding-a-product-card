@@ -15,12 +15,15 @@ class Corzina extends Component{
                     <p>{info.length>0?info:'lorem information'}</p>
                 </div>
                 <div className={'icon'}>
-                    <div className={'skitka-icon'}>
-                        {skitka.length>0?skitka:'10'}%
-                    </div>
-                    <div  className={'new-icon'}>
-                        {term.length>0?term:'New'}
-                    </div>
+                    {skitka.length>0?
+                        <div className={'skitka-icon'}>
+                        {skitka}%
+                    </div>:null}
+                    {term.length>0?
+                        <div  className={'new-icon'}>
+                        {term}
+                    </div>:null}
+
                     <div className={'koll-tovar'}>
                         {kol}</div>
                 </div>
