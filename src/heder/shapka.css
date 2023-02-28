@@ -1,0 +1,12 @@
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: dimgrey;
+    padding: 1%;
+    color: white;
+}
+.korzina{
+    padding: 2%;
+    max-width: 500px;
+}

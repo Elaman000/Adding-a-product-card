@@ -1,0 +1,81 @@
+.cont-corziny{
+    margin: 15px 20px;
+    width: 400px;
+    height: 80px;
+    box-shadow: 2px 2px 8px black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.conteiner-img-icon{
+    height: 100%;
+    width: 80px;
+    position: relative;
+}
+.conteiner-img-icon img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+
+}
+.info-cor{
+    text-align: center;
+    padding-top: 10px;
+}
+.info-cor p{
+    font-size: 0.9em;
+}
+.icon{
+    width: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.skitka-icon{
+    border-radius: 4px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2px 4px;
+    font-size: 14px;
+}
+.new-icon{
+    border-radius: 4px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2px 4px;
+    font-size: 14px;
+}
+.border-mani{
+    padding-right: 10px;
+    width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.border-mani span{
+    font-size: 15px;
+    margin: 0 5px 10px 0;
+    text-decoration:line-through;
+}
+.btn-remuve-card{
+    padding: 2px 3px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.koll-tovar{
+
+}
